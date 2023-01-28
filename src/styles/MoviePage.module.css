@@ -1,0 +1,97 @@
+.moviePageMain {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 10px;
+  justify-content: left;
+}
+.left {
+  margin: 0px 30px;
+  width: 100%;
+  flex: 0.08;
+  justify-content: center;
+  display: flex;
+}
+.left a {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  color: black;
+}
+.layout {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 0.5fr);
+}
+.center {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  height: 70vh;
+}
+.center1 {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  height: fit-content;
+  gap: 1rem;
+  margin-top: 40px;
+}
+.center button {
+  width: 30%;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  padding: 7px 0px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.innercenter {
+  flex: 0.5;
+}
+.right {
+  flex: 0.5;
+  justify-content: center;
+  display: flex;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating p {
+  font-size: 20px;
+}
+.creators {
+  display: flex;
+  justify-content: space-between;
+}
+.prodComp {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: left;
+}
+.prodComp p {
+  margin-right: 10px;
+  padding: 0px 5px;
+}
+.casts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.casts img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.rightImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

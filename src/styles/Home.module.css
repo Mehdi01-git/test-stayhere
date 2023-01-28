@@ -1,0 +1,198 @@
+@media only screen and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .editGrid {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .left {
+    margin-right: 0 !important;
+  }
+}
+.main {
+  display: flex;
+  padding: 50px 30px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  margin-right: 50px;
+}
+.right {
+  display: flex;
+  flex: 1;
+}
+.searchBox {
+  border: 2px solid black;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.searchTit {
+  position: absolute;
+  top: -15px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 5px;
+}
+.searchBar {
+  padding: 5px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.searchBar > .SearchIcon {
+  position: relative;
+}
+.SearchIcon {
+  position: absolute;
+  margin-left: 5px;
+}
+.FilterBox {
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  justify-content: space-evenly;
+}
+.FilterBox {
+  position: relative;
+}
+.FilterTit {
+  position: absolute;
+  top: -15px;
+  background-color: white;
+  width: fit-content;
+  padding: 0px 5px;
+}
+.GernesSelect {
+  display: flex;
+  flex-direction: column;
+}
+.genreSelector {
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.Apply {
+  padding: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Apply:active {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.Edit {
+  margin-bottom: 10px;
+}
+.editGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+.gridItem {
+  display: flex;
+  width: 15rem;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.gridItem img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+.gridItem p {
+  width: 100%;
+  font-weight: 600;
+}
+.gridItem button {
+  width: 90%;
+  padding: 5px 0px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.Info {
+  height: 25vh;
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.latestMov {
+  margin: 20px 0px;
+}
+.paginate {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  place-items: center;
+}
+.NoResults {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+.reSpawnEdit {
+  margin-top: 10px;
+  padding: 10px 0px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.gridLatest {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+.latestGridItem img {
+  width: 100%;
+}
+.paginator {
+  margin-top: 40px;
+}
+.paginator ul {
+  display: flex;
+  width: 70%;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.paginator a {
+  border-radius: 50px;
+
+  cursor: pointer;
+  padding: 5px 13px;
+  background-color: lightgray;
+}
